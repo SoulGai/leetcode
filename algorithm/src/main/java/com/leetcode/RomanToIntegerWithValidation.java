@@ -23,7 +23,7 @@ package com.leetcode;
  * C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
  * 给定一个罗马数字，将其转换成整数。
  **/
-public class RomanNum {
+public class RomanToIntegerWithValidation {
     public static int romanToInt(String s) {
         return 0;
     }

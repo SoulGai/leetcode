@@ -14,7 +14,6 @@ package com.leetcode;
  **/
 public class Palindrome {
     public static boolean isPalindrome(int x) {
-
         return true;
     }
 
@@ -22,6 +21,7 @@ public class Palindrome {
         System.out.println(isPalindrome(121));
         System.out.println(isPalindrome(-121));
         System.out.println(isPalindrome(10));
-
+        System.out.println(isPalindrome(23));
+        System.out.println(isPalindrome(32));
     }
 }

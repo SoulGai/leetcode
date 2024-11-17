@@ -14,6 +14,7 @@ package com.leetcode;
  **/
 public class Palindrome {
     public static boolean isPalindrome(int x) {
+
         return true;
     }
 

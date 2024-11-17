@@ -25,21 +25,7 @@ public class DisplacementMap {
     public static int[] anagramMappings(int[] nums1, int[] nums2){
         // 创建映射数组
         int[] mappings = new int[nums1.length];
-        // 创建一个 HashMap 来存储 nums2 中每个元素的索引
-        Map<Integer, Integer> map = new HashMap<>();
-        // 遍历 nums2，将元素及其索引存入 HashMap
-        for(int i =0; i < nums2.length; i++){
-            map.put(nums2[i], i);
-        }
-        // 遍历 nums1，查找每个元素在 nums2 中的索引
-        for(int i =0; i < nums1.length; i++){
-            mappings[i] = map.get(nums1[i]);
-        }
 
-        //int t = 0;
-        //for(int n:nums1){
-        //    mappings[t++] = map.get(n);
-        //}
         return mappings;
     }
 
